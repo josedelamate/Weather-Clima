@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #2c3e50;
+    background: #8eaab6 url('sky.jpg');
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.input-city, .form-btn {
+    font-size: 1rem;
+    padding: 7px 14px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 25px;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.form-btn {
+    background-color: #22a6b3;
+    color:  #ecf0f1;
+    cursor: pointer;
+    border: none;
+    transition: .4s;
+}
+
+.form-btn:hover {
+    background-color: #16818c;
+}
+
+.result p {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.city, .country {
+    font-size: 1.5rem;
+}
+
+.temp {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.sky {
+    font-size: 1.3rem;
+}
+
+.min-max {
+    font-size: 1.1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
